@@ -1,0 +1,49 @@
+- create qr code for boardItem
+- boardItem, multiple time slots possible for same item. Timeslots should be array
+
+- misc boardItem - i.e. Holidays, RDO's etc that dont need much information
+- Request RDO item - logs user time/username etc and notifies Pearl. And ticked for approval by Pearl changes to 
+      'accepted'. Sends email to pearl with details in Json.
+
+- Drag drop boardItems into Bin - 30 day temporary cache then perminant deletes them
+
+- boardItems should carry forward to next day if not completed?
+- Option - remove/show boardItem from display if completed
+
+- Calendar view - like google, current timeline
+
+- Create work zone areas i.e. router, paint booth - jobs cards can be allocated location/sub-board there
+- Multiple projects like todoist??? - i think so. Maybe this should be things like work zone areas??? 
+      i.e. design, production, 
+
+- Search Bar
+
+- Views
+      - List
+      - Boards
+            + 'Show Production and Install Boards together'
+      - Calendar
+            - Show x number of days
+      - Customers/orders in WIP (more of an overview)
+
+- Reminders - Text and Email. Set durations i.e. _h before, persist xtimes or _h after. Email contains direct link to 
+      boardItem
+
+- sub-tasks w/ infinate parenting?
+
+- Clock in/out of tasks - %2 ==0 for clockin, %2==1 for clockout
+
+Boards and sub-boards 
+      - i.e. Design main board, awaiting approv sub board
+
+Due date view
+      - Create new locked disabled board items for boardItems on the specified due date
+      - Btn on boardItem 'see due date' triggers the display with the specific item highlighted vs now time
+
+Corebridge import
+      - Btn on board for 'import from corebridge'. Modal with 'enter #inv and #product'
+
+
+
+
+

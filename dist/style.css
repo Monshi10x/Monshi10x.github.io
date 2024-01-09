@@ -34,7 +34,7 @@ body{
       margin:0px;
       box-sizing: border-box;
       padding:5px;
-      position:relative;
+      position:fixed;
       bottom:0;
       left:0;
       font-size:10px;
@@ -45,11 +45,15 @@ body{
 #boardItem{
       width:200px;
       height:200px;
-      background-color:red;
-      color:white;
+      color:black;
       margin:10px;
       display:block;
       box-sizing:border-box;
       float:left;
       word-wrap: break-word;
+
+      padding:4px;
+      border:1px solid #ccc;
+      box-shadow: rgb(137, 137, 137) 4px 6px 20px 0px;
+      box-sizing:content-box;
 }
