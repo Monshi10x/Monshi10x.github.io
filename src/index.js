@@ -126,9 +126,9 @@ async function getCollectionDataObject(collectionName) {
 
 
 let data = await getCollectionDataObject("boardItem");
+console.log(data);
 for(let i = 0; i < data.length; i++) {
       console.log(data[i]);
-      console.log("hi");
       let item = createText(JSON.stringify(data[i]), null, document.getElementById("MainContent"));
       item.id = "boardItem";
 }
