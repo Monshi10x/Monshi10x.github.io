@@ -132,3 +132,7 @@ for(let i = 0; i < data.length; i++) {
       let item = createText(JSON.stringify(data[i]), null, document.getElementById("MainContent"));
       item.id = "boardItem";
 }
+
+let container = new UIContainerType3("width:200px;height:100px;", "test", document.getElementById("MainContent"));
+console.log(container);
+console.log("T");
