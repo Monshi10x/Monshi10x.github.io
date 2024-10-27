@@ -22,6 +22,7 @@ body{
 #MainContent{
       margin-top:40px;
       width:100%;
+      height:calc(100% - 50px)
 }
 
 #footer{
