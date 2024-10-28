@@ -8,7 +8,9 @@ module.exports = {
             filename: 'bundle.js'
       },
       externals: {
-            jquery: 'jQuery'
+            $: 'jQuery',
+            UIContainerType3: 'UIContainerType3',
+            UI: 'UI'
       },
       watch: true
 };
