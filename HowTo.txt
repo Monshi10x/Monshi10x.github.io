@@ -1,0 +1,3 @@
+in terminal cd to C:\Users\monsh\Documents\SignScheduler
+to setup webpack: npm i webpack webpack-cli -D
+everytime need to build webpack: npm run build
