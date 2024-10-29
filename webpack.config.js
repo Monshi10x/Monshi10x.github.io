@@ -10,7 +10,7 @@ module.exports = {
       externals: {
             $: 'jQuery',
             UIContainerType3: 'UIContainerType3',
-            UI: 'UI'
+            UI: 'UI',
       },
       watch: true
 };
